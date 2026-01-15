@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(to bottom right, #283747, #AEB6BF);
+    background-attachment: fixed;
+
+    font-family: monospace;
+    color: aliceblue;
+}
+
+.profile_img {
+    background-image: url("../image/2.webp");
+    background-size: contain;
+    width: 550px;
+    height: 300px;
+    margin: 40px 50px 20px 100px;
+
+    border-radius: 100px 30px;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    border-width: 10px 25px;
+}
+
+.about {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.under {
+    text-align: center;
+    text-decoration: dotted;
+}
+
+.hobby {
+    text-decoration-line: underline;
+}
+
+.container-2 {
+    margin-top: 100px;
+}
+
+.logo {
+    background-image: url("../image/logo.png");
+    background-size: contain;
+    width: 100px;
+    height: 70px;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+
+#but1 {
+    margin-top: 50px;
+    background-color:aliceblue;
+    border-radius: 20px;
+    border-color: aliceblue;
+}
+
+#img1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.form_reg {
+    border-radius: 20px;
+    border-width: 10px;
+    height: 50px;
+    width: 200px;
+}

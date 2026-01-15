@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Серова А.А.</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/dig/css/style.css">
+    </head>
+    <body>
+        <div class="container-general" style="display: flex;">
+            <div class="container-1">
+                <div class="logo"></div>
+            </div>
+            <div class="container-2">
+                <div class="row"></div>
+                    <div class="col">
+                        <h1 style="text-align: center;">Серова Александра Алексеевна</h1>
+                    </div>
+                    <div class="col">
+                        <div class="about">Информация о Серовой А.А.:</div>
+                        <p>Студент 1 курса института ИКБ в РТУ МИРЭА. Что насчёт увлечений?</p>
+                        <ul class="hobby">
+                            <li>кодю</li>
+                            <li>не оставляю в стороне творчество</li>
+                            <li>люблю всё связанное с автомобилями</li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="container-3">
+                <div class="row">
+                    <div class="col" >
+                        <div class="profile_img"></div>
+                        <p class="under">любимое авто</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center;"><button id="but1">Click me</button></div>
+        <img id="img1" style="display: none;" src="image/koenigsegg-logo.png">
+
+    <script src="dig/js/button.js" type="text/javascript"></script>
+    </body>
+</html>
